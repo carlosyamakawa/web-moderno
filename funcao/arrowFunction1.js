@@ -1,0 +1,19 @@
+// todas funções "dobro" são iguais
+let dobro = function(a) {
+    return 2 * a
+}
+
+dobro = (a) => {
+    return 2 * a
+}
+
+dobro = a => 2 * a // return implícito
+console.log(dobro(Math.PI))
+
+let ola = function() {
+    return 'Olá'
+}
+
+ola = () => 'Olá'
+ola = _ => 'Olá' // possui parametro, mas vc pode ignorar
+console.log(ola())
